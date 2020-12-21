@@ -44,6 +44,6 @@ Cuando tengan todo listo, completen [esta actividad](https://www.notion.so/Prese
 
 ## Contactos
 
--  Server de Discord [![Discord Chat](https://img.shields.io/discord/789588051303202916.svg)](https://discord.gg/fCmFrq3Wc8) :smile:.
+- [![Discord Chat](https://img.shields.io/discord/789588051303202916.svg)](https://discord.gg/fCmFrq3Wc8) Discord.
 
 - Telegram como `@carlassaraf`.
