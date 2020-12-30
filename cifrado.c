@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <string.h>
 
-int validate(int argc, char *argv[]);
+int validar(int argc, char *argv[]);
 char* cifrar(char *text, char *key);
 
 int main(int argc, char *argv[]) {
 
-    if (validate(argc, argv)) {
+    if (validar(argc, argv)) {
         return 1;
     }
 
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-int validate(int argc, char *argv[]) {
+int validar(int argc, char *argv[]) {
     
     // TODO
 }
