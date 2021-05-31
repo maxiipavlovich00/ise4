@@ -5,7 +5,7 @@ Escribir un programa que:
   - Imprima un mensaje con la cantidad de palabras.
   - Imprima un mensaje con la cantidad de oraciones.
   
-Luego, armar un 'README.md` con lo siguiente:
+Luego, armar un `README.md` con lo siguiente:
 
 ```markdown
 # Word
