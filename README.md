@@ -18,7 +18,7 @@ Materia: Control de Interfaces
 ## Consideraciones
 
 - Consideren que una palabra es cuando detectan un espacio y una oración cuando detectan alguno de estos caracteres: `.`, `!` o `?`.
-- Pueden usar la función `isspace()` de la libreróía `ctype.h` que devuelve `true` si el el caracter es un espacio. Algunos ejemplos [aquí](https://www.programiz.com/c-programming/library-function/ctype.h/isspace).
+- Pueden usar la función `isspace()` de la librería `ctype.h` que devuelve `true` si el el caracter es un espacio. Algunos ejemplos [aquí](https://www.programiz.com/c-programming/library-function/ctype.h/isspace).
 - Pueden aprovechar el fin de cadena o caracter nulo `\0` para hacer algo como esto:
 
 ```c
