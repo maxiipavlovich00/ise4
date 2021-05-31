@@ -28,7 +28,7 @@ int read_file(char *text, char *filename) {
 
     FILE *fp;
     char c;
-    char full_name;
+    char full_name[30];
     
     sprintf(full_name, "frases/%s.txt", filename);
     fp = fopen(full_name, "r");
