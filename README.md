@@ -48,19 +48,19 @@ Para probarlo, usen los archivos en la carpeta `frases`, ejemplo:
 ## Ejemplos para comparar
 
 ```
-$ ./word gandalf.txt
+$ ./word gandalf
 Cantidad de palabras: 17
 Cantidad de oraciones: 1
 ```
 
 ```
-$ ./word geralt.txt
+$ ./word geralt
 Cantidad de palabras: 46
 Cantidad de oraciones: 4
 ```
 
 ```
-$ ./word roland.txt
+$ ./word roland
 Cantidad de palabras: 66
 Cantidad de oraciones: 6
 ```
