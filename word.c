@@ -8,7 +8,7 @@ int read_file(char *text, char *filename);
 int main(int argc, char *argv[]) {
 
     if (argc != 2) {
-        printf("Uso: ./word frases/file.txt\n");
+        printf("Uso: ./word file\n");
         return 0;
     }
 
@@ -28,8 +28,10 @@ int read_file(char *text, char *filename) {
 
     FILE *fp;
     char c;
-
-    fp = fopen(filename, "r");
+    char full_name;
+    
+    sprintf(full_name, "frases/%s.txt", filename);
+    fp = fopen(full_name, "r");
     
     if (!fp) {
         return 1;
