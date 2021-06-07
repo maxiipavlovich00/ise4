@@ -9,14 +9,14 @@ int main(int argc, char *argv[]) {
 
     if (argc != 2) {
         printf("Uso: ./word file\n");
-        return 0;
+        return 1;
     }
 
     char text[MAX];
 
     if (read_file(text, argv[1])) {
         printf("Archivo no encontrado\n");
-        return 0;
+        return 1;
     }
 
     // TODO
