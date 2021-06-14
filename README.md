@@ -23,9 +23,8 @@ Materia: Control de Interfaces
 
 ```c
 int i = 0;
-char string[30];
 
-while (string[i] != '\0') {
+while (text[i] != '\0') {
   ...
   i++;
 }
